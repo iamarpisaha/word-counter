@@ -50,7 +50,7 @@ textArea.addEventListener("input", (event) => {
 No installation needed! Simply:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/word-counter.git
+   git clone https://github.com/iamarpisaha/word-counter.git
 
 2. Open `index.html` in any modern browser
 
