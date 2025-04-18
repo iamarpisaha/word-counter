@@ -1,5 +1,7 @@
 # 📝 Word Counter
 
+### Live demo: https://iamarpisaha.github.io/word-counter/
+
 ![Word Counter Preview](preview.png)
 
 A lightweight, real-time word counter web application that analyzes text as you type, providing instant counts of words, letters, and sentences.
@@ -23,8 +25,6 @@ A lightweight, real-time word counter web application that analyzes text as you 
    - **Letters**: All characters (including spaces)
    - **Sentences**: Detects sentences ending with . ! or ?
 
-Live demo: [GitHub Pages Link] _[Optional]_
-
 ## 🛠️ Technical Implementation
 
 ```javascript
@@ -44,3 +44,35 @@ textArea.addEventListener("input", (event) => {
     .filter((word) => word).length;
 });
 ```
+
+## 📦 Installation
+
+No installation needed! Simply:
+
+1. Clone the repository:
+   git clone https://github.com/yourusername/word-counter.git
+
+2. Open `index.html` in any modern browser
+
+Or use directly via GitHub Pages.
+
+## 🌟 Future Enhancements
+
+- Paragraph counting
+- Reading time estimation
+- Dark/Light mode toggle
+- Text statistics (most used words, etc.)
+- Export results option
+
+## 🤝 Contributing
+
+Contributions welcome! Please:
+
+1. Fork the project
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
+
+📜 License
+MIT License - see LICENSE for details.
