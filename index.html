@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Word Counter</h1>
+      <textarea
+        class="text-area"
+        id="textArea"
+        placeholder="Type or paste your text here..."
+      ></textarea>
+      <div class="counters">
+        <div class="counter-box">
+          <div class="counter-title">Words</div>
+          <div class="counter-value" id="word-count">0</div>
+        </div>
+        <div class="counter-box">
+          <div class="counter-title">Letters</div>
+          <div class="counter-value" id="letter-count">0</div>
+        </div>
+        <div class="counter-box">
+          <div class="counter-title">Sentences</div>
+          <div class="counter-value" id="sentence-count">0</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
